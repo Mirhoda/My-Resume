@@ -85,7 +85,9 @@ h1, h2, h3, h4, h5, h6, figure {
   color: #fff;
   background: #FF9000;
 }
-
+.contact{
+  color: #000;
+}
 #fh5co-header,
 .fh5co-cover {
   background-color: transparent;
@@ -279,10 +281,15 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-features .feature-left p a {
   color: #000 !important;
 }
+#fh5co-skills{
+  padding-bottom: 15px;
+  padding-top: 20px;
+  width: 100%;
 
+}
 #fh5co-about,
 #fh5co-resume,
-#fh5co-skills,
+
 #fh5co-started,
 #fh5co-work,
 #fh5co-blog,
@@ -340,7 +347,7 @@ h1, h2, h3, h4, h5, h6, figure {
 .info li .first-block {
   width: 40%;
   display: inline-block;
-  float: left;
+  float:left;
   color: #000;
   font-weight: bold;
 }
