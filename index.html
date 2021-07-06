@@ -8,7 +8,9 @@
 	<meta name="description" content="Mobinul Hoda's Personel details created by Mobinul." />
 	<meta name="keywords" content="Mobinul Hoda's Personel details" />
 	<meta name="author" content="freehtml5.co" />
-
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
   	<!-- Facebook and Twitter integration -->
 	<meta property="og:title" content=""/>
@@ -66,366 +68,408 @@
 				</div>
 			</div>
 		</div>
+		<a class="ct-btn-scroll ct-js-btn-scroll" href="#section2"><img alt="Arrow Down Icon" src="images/arrow-down.png"></a>
+		<script>
+		$(document).ready(function(){
+  $("a").on('click', function(event) {
+    if (this.hash !== "") {
+      event.preventDefault();
+      var hash = this.hash;
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+        window.location.hash = hash;
+      });
+    } 
+  });
+});
+	</script>
 	</header>
-
-	<div id="fh5co-about" class="animate-box">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-					<h2>About Me</h2>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-4">
-					<ul class="info">
-						<li><span class="first-block">Full Name:</span><span class="second-block">Mobinul Hoda</span></li>
-						<li><span class="first-block">Phone:</span><span class="second-block">+91 7975140514</span></li>
-						<li><span class="first-block">Email:</span><span class="second-block">mobinulhoda@gmail.com</span></li>
-						
-						<li><span class="first-block">Address:</span><span class="second-block">Habib Manzil, Kalimegha, Jajpur, Odisha, India</span></li>
-					</ul>
-				</div>
-				<div class="col-md-8">
-					<h2>Hello There!</h2>
-					<p>A mixed engineering professional of both hardware & software domains. I have worked for an OEM company, which
-						builds new-age technology sensors. I also have hands-on experience in hardware design & development from
-						scratch.</p>
-						<br>
-						<p>To pursue a challenging career and be part of a progressive organization that gives scope to enhance my
-							knowledge, skills and to reaches the pinnacle in the computing and research field with sheer determination,
-							dedication, and hard work.
-							From my previous experience, I acquired the following skillset
-							<ul>
-								<li>Process-oriented, ensuring safe and quality line production.</li>
-								<li>Good problem solving & analyzing skills.</li>
-								<li>Outstanding work ethic and team-building skills; willing to work overtime and flexible shifts.</li>
-							</ul></p>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div id="fh5co-resume" class="fh5co-bg-color">
-		<div class="container">
-			<div class="row animate-box">
-				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-					<h2>My Resume</h2>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-12 col-md-offset-0">
-					<ul class="timeline">
-						<li class="timeline-heading text-center animate-box">
-							<div><h3>Work Experience</h3></div>
-						</li>
-						<li class="timeline-inverted animate-box">
-							<div class="timeline-badge"><i class="icon-suitcase"></i></div>
-							<div class="timeline-panel">
-								<div class="timeline-heading">
-									<h3 class="timeline-title">Associate Systems Engineer</h3>
-									<span class="company">i2n Technologies Pvt ltd, Jan 2017 - Oct 2020 </span>
-								</div>
-								<div class="timeline-body">
-									<p>In i2n Technologies, the Scanning Tunneling Microscopy and Atomic Force Microscopy are developed.
-										I was project lead the design & development of MEMS-based Pressure Transducer & Transmitter used for
-										Aerospace & Industrial application, MEMS-based product developed at Indian Institute of Science, IISc, Bangalore,
-										India.
-										<ul>
-											<li>Maintained perfect attendance record throughout tenure.</li>
-											<li>Created a process checklist to help train new hires.</li>
-										</ul>
-										Along with these, I was part of the recuritment team.
-										I was also involved in Technical support for our product. Giving end-to-end solutions.
-										<ul>
-											<br>
-											<h4>Projects</h4>
-											<li>MEMS Pressure Transducer & Transmitter</li>
-											<li>Wireless Tyre Pressure Monitoring System (Development level)</li>
-											<li>SPM (Scanning Probe Microscopy) & AFM (Atomic Force Microscopy)</li>
-										</ul>
-									
-									</p>
-								</div>
-							</div>
-						</li>
-						<li class="animate-box timeline-unverted">
-							<div class="timeline-badge"><i class="icon-suitcase"></i></div>
-							<div class="timeline-panel">
-								<div class="timeline-heading">
-									<h3 class="timeline-title">Device Engineer</h3>
-									<span class="company">RoboVision, PCE Robotics Club, Oct 2014 - Jul 2016</span>
-								</div>
-								<div class="timeline-body">
-									<p>I was the Secretary for our robotics club, I was heading the engineering team for developing the electronics
-										board for robotics usage.</p>
-								</div>
-							</div>
-						</li>
-
-						<br>
-						<br>
-						<li class="timeline-heading text-center animate-box">
-							<div><h3>Education</h3></div>
-						</li>
-						<br>
-						<li class="animate-box timeline-unverted">
-							<div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
-							<div class="timeline-panel">
-								<div class="timeline-heading">
-									<h3 class="timeline-title">Post Graduate Certificate</h3>
-									<span class="company">Indian Institue of Foreign Trade(IIFT), New Delhi - 2020 - 2021</span>
-								</div>
-								<div class="timeline-body">
-									<p>Specialization in Internation Business & Trade Finance.</p>
-								</div>
-							</div>
-						</li>
-						<li class="timeline-inverted animate-box">
-							<div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
-							<div class="timeline-panel">
-								<div class="timeline-heading">
-									<h3 class="timeline-title">Bachelors Degree</h3>
-									<span class="company">Biju Patnaik University of Technology, Odisha - 2012 - 2016</span>
-								</div>
-								<div class="timeline-body">
-									<p>Specialization in Electrical & Electronics Engineering, 6.76 CGPA</p>
-								</div>
-							</div>
-						</li>
-						<li class="animate-box timeline-unverted">
-							<div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
-							<div class="timeline-panel">
-								<div class="timeline-heading">
-									<h3 class="timeline-title">Council for the Indian School Certificate Examinations</h3>
-									<span class="company">Ispat EM School- 2010 - 2012</span>
-								</div>
-								<div class="timeline-body">
-									<p>Specialization in Biology, 54 % </p>
-								</div>
-							</div>
-						</li>
-						<li class="timeline-inverted animate-box">
-							<div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
-							<div class="timeline-panel">
-								<div class="timeline-heading">
-									<h3 class="timeline-title">High School</h3>
-									<span class="company">St Paul's School - 1999 - 2010</span>
-								</div>
-								<div class="timeline-body">
-									<p>Physics, 75 % </p>
-									<p>Won many awards for The National Talent Search Examination, conducted by Indian School of Certification, New Delhi.</p>
-								</div>
-							</div>
-						</li>
-			    	</ul>
-				</div>
-			</div>
-		</div>
-	</div>
-	
-	<div id="fh5co-features" class="animate-box">
-		<div class="container">
-			<div class="services-padding">
+	<section id="section2">
+		<div id="fh5co-about" class="animate-box">
+			<div class="container">
 				<div class="row">
 					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-						<h2>My Services</h2>
+						<h2>About Me</h2>
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-md-4 text-center">
-						<div class="feature-left">
-							<span class="icon">
-								<i class="icon-paintbrush"></i>
-							</span>
-							<div class="feature-copy">
-								<h3>Web Design</h3>
-								<p>When you use a theme created & developed by us, you know that the theme will look great on any device, whether it's a phone, tablet, or desktop the page will behave responsively!</p>
+					<div class="col-md-4">
+						<ul class="info">
+							<li><span class="first-block">Full Name:</span><span class="second-block">Mobinul Hoda</span></li>
+							<li><span class="first-block">Phone:</span><span class="second-block">+91 7975140514</span></li>
+							<li><span class="first-block">Email:</span><span class="second-block">mobinulhoda@gmail.com</span></li>
+							
+							<li><span class="first-block">Address:</span><span class="second-block">Habib Manzil, Kalimegha, Jajpur, Odisha, India</span></li>
+						</ul>
+					</div>
+					<div class="col-md-8">
+						<h2>Hello There!</h2>
+						<p>A mixed engineering professional of both hardware & software domains. I have worked for OEM company, which
+							build new-age technology sensors. I also have hands-on experience in hardware design & development from
+							scratch.</p>
+							<br>
+							<p>To pursue a challenging career and be part of a progressive organization that gives scope to enhance my
+								knowledge, skills and to reaches the pinnacle in the computing and research field with sheer determination,
+								dedication, and hard work.
+								From my previous experience, I acquired following skill set
+								<ul>
+									<li>Process-oriented, ensuring safe and quality line production.</li>
+									<li>Good problem solving & analyzing skills.</li>
+									<li>Outstanding work ethic and team building skills; willing to work overtime and flexible shifts.</li>
+								</ul></p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="fh5co-resume" class="fh5co-bg-color">
+			<div class="container">
+				<div class="row animate-box">
+					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+						<h2>My Resume</h2>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12 col-md-offset-0">
+						<ul class="timeline">
+							<li class="timeline-heading text-center animate-box">
+								<div><h3>Work Experience</h3></div>
+							</li>
+							<li class="timeline-inverted animate-box">
+								<div class="timeline-badge"><i class="icon-suitcase"></i></div>
+								<div class="timeline-panel">
+									<div class="timeline-heading">
+										<h3 class="timeline-title">Associate Systems Engineer</h3>
+										<span class="company">i2n Technologies Pvt ltd, Jan 2017 - Oct 2020 </span>
+									</div>
+									<div class="timeline-body">
+										<p>In i2n Technologies, the Scanning Tunneling Microscopy and Atomic Force Microscopy are developed.
+											I was project lead the design & development of MEMS based Pressure Transducer & Transmitter used for
+											Aerospace & Industrial application, MEMS based product developed at Indian Institute of Science, IISc, Bangalore,
+											India.
+											<ul>
+												<li>Maintained perfect attendance record throughout tenure.</li>
+												<li>Created a process checklist to help train new hires.</li>
+											</ul>
+											Along with these I was part of recuritment team.
+											I was also involved in Technical support for our product. Giving end-to-end solution.
+											<ul>
+												<br>
+												<h4>Projects</h4>
+												<li>MEMS Pressure Transducer & Transmitter</li>
+												<li>Wireless Tyre Pressure Monitoring System (Development level)</li>
+												<li>SPM (Scanning Probe Microscopy) & AFM (Atomic Force Microscopy)</li>
+											</ul>
+										
+										</p>
+									</div>
+								</div>
+							</li>
+							<li class="animate-box timeline-unverted">
+								<div class="timeline-badge"><i class="icon-suitcase"></i></div>
+								<div class="timeline-panel">
+									<div class="timeline-heading">
+										<h3 class="timeline-title">Device Engineer</h3>
+										<span class="company">RoboVision, PCE Robotics Club, Oct 2014 - Jul 2016</span>
+									</div>
+									<div class="timeline-body">
+										<p>I was the Secretary for our robotics club, I was heading the engineer team for developing the electronics
+											board for robotics usage.</p>
+									</div>
+								</div>
+							</li>
+	
+							<br>
+							<br>
+							<li class="timeline-heading text-center animate-box">
+								<div><h3>Education</h3></div>
+							</li>
+							<br>
+							<li class="animate-box timeline-unverted">
+								<div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
+								<div class="timeline-panel">
+									<div class="timeline-heading">
+										<h3 class="timeline-title">Post Graduate Certificate</h3>
+										<span class="company">Indian Institue of Foreign Trade(IIFT), New Delhi - 2020 - 2021</span>
+									</div>
+									<div class="timeline-body">
+										<p>Specialization in Internation Business & Trade Finance.</p>
+									</div>
+								</div>
+							</li>
+							<li class="timeline-inverted animate-box">
+								<div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
+								<div class="timeline-panel">
+									<div class="timeline-heading">
+										<h3 class="timeline-title">Bachelors Degree</h3>
+										<span class="company">Biju Patnaik University of Technology, Odisha - 2012 - 2016</span>
+									</div>
+									<div class="timeline-body">
+										<p>Specialization in Electrical & Electronics Engineering, 6.76 CGPA</p>
+									</div>
+								</div>
+							</li>
+							<li class="animate-box timeline-unverted">
+								<div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
+								<div class="timeline-panel">
+									<div class="timeline-heading">
+										<h3 class="timeline-title">Council for the Indian School Certificate Examinations</h3>
+										<span class="company">Ispat EM School- 2010 - 2012</span>
+									</div>
+									<div class="timeline-body">
+										<p>Specialization in Biology, 54 % </p>
+									</div>
+								</div>
+							</li>
+							<li class="timeline-inverted animate-box">
+								<div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
+								<div class="timeline-panel">
+									<div class="timeline-heading">
+										<h3 class="timeline-title">High School</h3>
+										<span class="company">St Paul's School - 1999 - 2010</span>
+									</div>
+									<div class="timeline-body">
+										<p>Physics, 75 % </p>
+										<p>Won many awards for National Talent Search Examination, conducted by Indian School of Certification, New Delhi.</p>
+									</div>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div id="fh5co-features" class="animate-box">
+			<div class="container">
+				<div class="services-padding">
+					<div class="row">
+						<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+							<h2>My Services</h2>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-4 text-center">
+							<div class="feature-left">
+								<span class="icon">
+									<i class="icon-paintbrush"></i>
+								</span>
+								<div class="feature-copy">
+									<h3>Web Design</h3>
+									<p>When you use a theme created & developed by us, you know that the theme will look great on any device, whether it's a phone, tablet, or desktop the page will behave responsively!</p>
+								</div>
 							</div>
 						</div>
-					</div>
-
-					<div class="col-md-4 text-center">
-						<div class="feature-left">
-							<span class="icon">
-								<i class="icon-briefcase"></i>
-							</span>
-							<div class="feature-copy">
-								<h3>Business Branding</h3>
-								<p>Promoting business is necessary whether it is small or large scale.</p>
+	
+						<div class="col-md-4 text-center">
+							<div class="feature-left">
+								<span class="icon">
+									<i class="icon-briefcase"></i>
+								</span>
+								<div class="feature-copy">
+									<h3>Business Branding</h3>
+									<p>Promoting business is necessary whether it is small or large scale.</p>
+								</div>
+							</div>
+	
+						</div>
+						<div class="col-md-4 text-center">
+							<div class="feature-left">
+								<span class="icon">
+									<i class="icon-chat"></i>
+								</span>
+								<div class="feature-copy">
+									<h3>Consultation</h3>
+									<p>Supporting your business through technical, R&D & sales.</p>
+								</div>
 							</div>
 						</div>
-
+					</div>				
 					</div>
-					<div class="col-md-4 text-center">
-						<div class="feature-left">
-							<span class="icon">
-								<i class="icon-chat"></i>
-							</span>
-							<div class="feature-copy">
-								<h3>Consultation</h3>
-								<p>Supporting your business through technical, R&D & sales.</p>
+				</div>
+			</div>
+		</div>
+	
+	
+		<div id="fh5co-skills" class="animate-box" style="background-color: whitesmoke; width: 100%;">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+						<h2 style="color: black;">Skills</h2>
+					</div>
+				</div>
+				<div class="row row-pb-md">
+					<div class="col-md-3 col-sm-6 col-xs-12 text-center">
+						<div class="chart" data-percent="95"><span><strong>HTML5</strong>85%</span></div>
+					</div>
+					<div class="col-md-3 col-sm-6 col-xs-12 text-center">
+						<div class="chart" data-percent="93"><span><strong>CSS3</strong>83%</span></div>
+					</div>
+					<div class="col-md-3 col-sm-6 col-xs-12 text-center">
+						<div class="chart" data-percent="90"><span><strong>jQuery</strong>65%</span></div>
+					</div>
+	
+					<div class="col-md-3 col-sm-6 col-xs-12 text-center">
+						<div class="chart" data-percent="89"><span><strong>JavaScript</strong>68%</span></div>
+					</div>
+					<div class="col-md-3 col-sm-6 col-xs-12 text-center">
+						<div class="chart" data-percent="90"><span><strong>Java</strong>70%</span></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	
+		<div id="fh5co-work" class="fh5co-bg-dark">
+			<div class="container">
+				<div class="row animate-box">
+					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+						<h2>Implementation....</h2>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-3 text-center col-padding animate-box">
+						<a href="https://www.digitalodisha.co.in/" class="work" style="background-image: url(images/portfolio-1.png);">
+							<div class="desc">
+								<h3>Digital Odisha - Online product display page</h3>
+								<span>Graphics designer along with several business posters design.</span>
+								
 							</div>
-						</div>
+						</a>
 					</div>
-				</div>				
+					<div class="col-md-3 text-center col-padding animate-box">
+						<a href="https://mirhoda.github.io/Dice-game/" class="work" style="background-image: url(images/dice.jpg);">
+							<div class="desc">
+								<h3>Online Dice Game</h3>
+								<span>Games has been always fun & if it is a dice game.</span>
+								
+							</div>
+						</a>
+					</div>
+					<div class="col-md-3 text-center col-padding animate-box">
+						<a href="https://mirhoda.github.io/Drum-player/" class="work" style="background-image: url(images/drum.jpg);">
+							<div class="desc">
+								<h3>Drum kit training</h3>
+								<span>Not having toys, don't worry try our drum kit game</span>
+								
+							</div>
+						</a>
+					</div>
+					<div class="col-md-3 text-center col-padding animate-box">
+						<a href="https://mirhoda.github.io/MediTrack/" class="work" style="background-image: url(images/medicine.jpg);">
+							<div class="desc">
+								<h3>MediTrack</h3>
+								<span>Tracking medicine with scanning barcode</span>
+								
+							</div>
+						</a>
+					</div>
+					
+					</div>
 				</div>
 			</div>
 		</div>
-	</div>
-
-
-	<div id="fh5co-skills" class="animate-box" style="background-color: whitesmoke; width: 100%;">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-					<h2 style="color: black;">Skills</h2>
-				</div>
-			</div>
-			<div class="row row-pb-md">
-				<div class="col-md-3 col-sm-6 col-xs-12 text-center">
-					<div class="chart" data-percent="95"><span><strong>HTML5</strong>85%</span></div>
-				</div>
-				<div class="col-md-3 col-sm-6 col-xs-12 text-center">
-					<div class="chart" data-percent="93"><span><strong>CSS3</strong>83%</span></div>
-				</div>
-				<div class="col-md-3 col-sm-6 col-xs-12 text-center">
-					<div class="chart" data-percent="90"><span><strong>jQuery</strong>65%</span></div>
-				</div>
-
-				<div class="col-md-3 col-sm-6 col-xs-12 text-center">
-					<div class="chart" data-percent="89"><span><strong>JavaScript</strong>68%</span></div>
-				</div>
-				<div class="col-md-3 col-sm-6 col-xs-12 text-center">
-					<div class="chart" data-percent="90"><span><strong>Java</strong>70%</span></div>
-				</div>
-			</div>
-		</div>
-	</div>
-
-	<div id="fh5co-work" class="fh5co-bg-dark">
-		<div class="container">
-			<div class="row animate-box">
-				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-					<h2>Implementation....</h2>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-3 text-center col-padding animate-box">
-					<a href="https://www.digitalodisha.co.in/" class="work" style="background-image: url(images/portfolio-1.png);">
-						<div class="desc">
-							<h3>Digital Odisha - Online product display page</h3>
-							<span>Graphics designer along with several business posters design.</span>
-							
-						</div>
-					</a>
-				</div>
-				<div class="col-md-3 text-center col-padding animate-box">
-					<a href="https://mirhoda.github.io/Dice-game/" class="work" style="background-image: url(images/dice.jpg);">
-						<div class="desc">
-							<h3>Online Dice Game</h3>
-							<span>Games has been always fun & if it is a dice game.</span>
-							
-						</div>
-					</a>
-				</div>
-				<div class="col-md-3 text-center col-padding animate-box">
-					<a href="https://mirhoda.github.io/Drum-player/" class="work" style="background-image: url(images/drum.jpg);">
-						<div class="desc">
-							<h3>Drum kit training</h3>
-							<span>Not having toys, don't worry try our drum kit game</span>
-							
-						</div>
-					</a>
-				</div>
-				<div class="col-md-3 text-center col-padding animate-box">
-					<a href="https://mirhoda.github.io/MediTrack/" class="work" style="background-image: url(images/medicine.jpg);">
-						<div class="desc">
-							<h3>MediTrack</h3>
-							<span>Tracking medicine with scanning barcode</span>
-							
-						</div>
-					</a>
-				</div>
-				
-				</div>
-			</div>
-		</div>
-	</div>
+		
 	
-
-
-	<div id="fh5co-consult">
-		<div class="video fh5co-video" style="background-image: url(images/cover_bg_1.jpg);">
-			<div class="overlay"></div>
+	
+		<div id="fh5co-consult">
+			<div class="video fh5co-video" style="background-image: url(images/cover_bg_1.jpg);">
+				<div class="overlay"></div>
+			</div>
+			<div class="choose animate-box" style="background-color: white ">
+				<h2 style="color: black;">Contact Us</h2>
+				<form method="POST" action="mailto:mobinulhoda@gmail.com">
+					<div class="row form-group" >
+						<div class="col-md-6">
+							<input type="text" id="fname" class="form-control" placeholder="Your firstname">
+						</div>
+					</div>
+					<div class="row form-group">
+						<div class="col-md-6">
+							<input type="text" id="lname" class="form-control" placeholder="Your lastname">
+						</div>
+					</div>
+	
+					<div class="row form-group">
+						<div class="col-md-12">
+							<input type="text" id="email" class="form-control" placeholder="Your email address">
+						</div>
+					</div>
+	
+					<div class="row form-group">
+						<div class="col-md-12">
+							<input type="text" id="subject" class="form-control" placeholder="Your subject of this message">
+						</div>
+					</div>
+	
+					<div class="row form-group">
+						<div class="col-md-12">
+							<textarea name="message" id="message" cols="30" rows="10" class="form-control" placeholder="Say something about us"></textarea>
+						</div>
+					</div>
+					<div class="form-group">
+						<input type="submit" value="Send Message" class="btn btn-primary">
+					</div>
+	
+				</form>	
+			</div>
 		</div>
-		<div class="choose animate-box" style="background-color: white ">
-			<h2 style="color: black;">Chai or Coffee, Let's talk...</h2>
-			<form method="POST" action="mailto:mobinulhoda@gmail.com">
-				<div class="row form-group" >
-					<div class="col-md-6">
-						<input type="text" id="fname" class="form-control" placeholder="Your firstname">
-					</div>
-				</div>
-				<div class="row form-group">
-					<div class="col-md-6">
-						<input type="text" id="lname" class="form-control" placeholder="Your lastname">
-					</div>
-				</div>
-
-				<div class="row form-group">
+	
+		
+		<div id="fh5co-footer">
+			<div class="container">
+				<div class="row">
 					<div class="col-md-12">
-						<input type="text" id="email" class="form-control" placeholder="Your email address">
+						<p style="text-align: center;"> © Mobinul. All Rights Reserved. 
+							<br>
+							Designed by Mobinul</p>
 					</div>
-				</div>
-
-				<div class="row form-group">
-					<div class="col-md-12">
-						<input type="text" id="subject" class="form-control" placeholder="Your subject of this message">
-					</div>
-				</div>
-
-				<div class="row form-group">
-					<div class="col-md-12">
-						<textarea name="message" id="message" cols="30" rows="10" class="form-control" placeholder="Say something about us"></textarea>
-					</div>
-				</div>
-				<div class="form-group">
-					<input type="submit" value="Send Message" class="btn btn-primary">
-				</div>
-
-			</form>	
-		</div>
-	</div>
-
-	
-	<div id="fh5co-footer">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12">
-					<p style="text-align: center;"> © Mobinul. All Rights Reserved. 
-						<br>
-						Designed by Mobinul</p>
 				</div>
 			</div>
 		</div>
-	</div>
-
-
 	
-	<!-- jQuery -->
-	<script src="js/jquery.min.js"></script>
-	<!-- jQuery Easing -->
-	<script src="js/jquery.easing.1.3.js"></script>
-	<!-- Bootstrap -->
-	<script src="js/bootstrap.min.js"></script>
-	<!-- Waypoints -->
-	<script src="js/jquery.waypoints.min.js"></script>
-	<!-- Stellar Parallax -->
-	<script src="js/jquery.stellar.min.js"></script>
-	<!-- Easy PieChart -->
-	<script src="js/jquery.easypiechart.min.js"></script>
 	
-	<!-- Main -->
-	<script src="js/main.js"></script>
-
+		
+		<!-- jQuery -->
+		<script src="js/jquery.min.js"></script>
+		<!-- jQuery Easing -->
+		<script src="js/jquery.easing.1.3.js"></script>
+		<!-- Bootstrap -->
+		<script src="js/bootstrap.min.js"></script>
+		<!-- Waypoints -->
+		<script src="js/jquery.waypoints.min.js"></script>
+		<!-- Stellar Parallax -->
+		<script src="js/jquery.stellar.min.js"></script>
+		<!-- Easy PieChart -->
+		<script src="js/jquery.easypiechart.min.js"></script>
+		
+		<!-- Main -->
+		<script src="js/main.js"></script>
+		<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+		<script>
+			//Get the button:
+		mybutton = document.getElementById("myBtn");
+		
+		// When the user scrolls down 20px from the top of the document, show the button
+		window.onscroll = function() {scrollFunction()};
+		
+		function scrollFunction() {
+		  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+			mybutton.style.display = "block";
+		  } else {
+			mybutton.style.display = "none";
+		  }
+		}
+		
+		// When the user clicks on the button, scroll to the top of the document
+		function topFunction() {
+		  document.body.scrollTop = 0; // For Safari
+		  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+		}
+		</script>
+	</section>	
+	
+	
+	
 	</body>
 </html>
+
